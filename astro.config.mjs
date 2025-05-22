@@ -8,6 +8,7 @@ import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
+  base: '/', // 如果部署在子路径需要配置
     site: 'https://example.com',
     integrations: [mdx(), sitemap(), tailwind(), react()],
     markdown: {
