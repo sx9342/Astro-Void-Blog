@@ -12,11 +12,22 @@ import Layout from '../layouts/BlogPost.astro';
 	pubDate={new Date('August 08 2021')}	
 >
 
-	<Profile />
+	<Profile client:load />
 	<br>
 	<a
     class="border flex justify-center items-center hover:no-underline hover:bg-gray-200 hover:border-gray-300 transition-colors ease-in-out bg-gray-100 w-full max-w-xs mx-auto mt-12 rounded-lg text-gray-700 text-xs h-8 font-medium border-gray-200 dark:bg-neutral-700 dark:border-neutral-600 dark:text-neutral-300 hover:dark:bg-neutral-700/50 hover:dark:border-neutral-600 hover:dark:text-neutral-100" style={{ transform: 'translateY(-30px)' }}
     href="https://github.com/sx9342" target="_blank"><Icon name="radix-icons:github-logo" class="w-5 h-5 text-gray-600 hover:text-gray-500 dark:text-neutral-200" style={{ transform: 'translateX(-10px) translateY(-0.2px)' }}/>Follow My Github</a>   
-	<AboutContent />
-	<TechStack />
+	<AboutContent client:load />
+	
+
+
+		<div style={{ transform: 'translateY(64px)' }}>
+			<h2 class="text-2xl font-mono text-gray-900 dark:text-gray-200">我的技术栈</h2>
+			<TechStack client:load  />
+		</div>
+
+
+
+
+
 </Layout>
