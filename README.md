@@ -22,4 +22,4 @@ npm install
 #  启动服务器
 npm run dev
 ```
-
+项目已经托管至Netlify, 可以直接访问 [Rin_laurant's blog](https://rinlaurant.netlify.app/)
