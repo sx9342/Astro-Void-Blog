@@ -1,27 +1,25 @@
 
-# Void-Astro
+# Astro Void Blog 🚀
 
-> 🧑‍🚀 Void-Astro is a minimalistic blog starter template designed for developers and writers who appreciate simplicity and elegance. Built with [Astro](https://astro.build/), this template leverages the power of [TailwindCSS](https://tailwindcss.com/) for styling and comes with a built-in dark mode, making it aesthetically pleasing and easy on the eyes.
+> 🧑‍🚀 这是我的个人博客 使用 [Astro](https://astro.build/)和[React](https://react.dev/)构建, 博客样式采用 [TailwindCSS](https://tailwindcss.com/) 实现了黑暗和明亮模式切换。
 
-## Features
+## 特点
 
-- **Minimalistic Design.**
-- **Dark Mode**
-- **Build with TailwindCSS**: 
-- **Responsive**
+- **极简设计。**
+- **暗黑模式。**
+- **使用 TailwindCSS 构建：**
+- **响应式设计。**
 
 
-## Getting Started
+## 开始使用
 
-1. Clone the repository:
 ```bash
-# Clone the repository
-git clone https://github.com/eAntillon/void-astro.git
-cd void-astro
-#  Install dependencies
-npm i
-#  Start the development server
+# 克隆仓库
+git clone git@github.com:sx9342/Astro-Void-Blog.git
+cd Astro-Void-Blog
+#  安装依赖
+npm install
+#  启动服务器
 npm run dev
 ```
-![frame](https://github.com/user-attachments/assets/0ab4b7b7-6b20-4ae2-8266-aa029a503cf1)
 
