@@ -15,7 +15,7 @@
 
 ```bash
 # 克隆仓库
-git clone git@github.com:sx9342/Astro-Void-Blog.git
+git clone https://github.com/sx9342/Astro-Void-Blog.git
 cd Astro-Void-Blog
 #  安装依赖
 npm install
